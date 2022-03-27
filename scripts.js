@@ -1,3 +1,11 @@
+// 4th part
+
+$("div").text("Hello");
+$("div").css("background","purple");
+
+
+
+// From 1st part to the 3rd
 console.log("JavaScript is working!");
 
 let colors = ["orange", "blue", "green", "purple"];
