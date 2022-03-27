@@ -29,3 +29,7 @@ div {
   body {
     padding: 100px;
   }
+
+  .hidden{
+      display: none;
+  }

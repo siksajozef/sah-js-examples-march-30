@@ -1,8 +1,19 @@
 // 4th part
 
-$("div").text("Hello");
+//$("div").text("Hello");
 $("div").css("background","purple");
 
+//$('.second').toggleClass('hidden');
+$('p').css('background','purple');
+$('p').text('<strong>hello world<strong/>');
+$('p').html('<strong>hello world<strong/>');
+$('p').append('<strong>another</strong>');
+
+//$('div').remove();
+
+$('button').click(() => {
+    $('.second').toggleClass('hidden');
+})
 
 
 // From 1st part to the 3rd
